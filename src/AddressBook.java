@@ -96,5 +96,15 @@ public class AddressBook {
 		}
 		return isValid;
 	}
+	
+	public void display(){
+		System.out.println("Name: " +getName());
+		System.out.println("Address: "+getAddress());
+		System.out.println("City : "+getCity());
+		System.out.println("State: "+getState());
+		System.out.println("Zip: "+getZip());
+		System.out.println("Phone: "+getPhone());
+		System.out.println("Email: "+getEmail());
+	}
 
 }

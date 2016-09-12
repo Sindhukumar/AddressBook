@@ -23,15 +23,9 @@ public class AddressBookApp {
 		while(!ab.setEmail(sc.nextLine())){
 			System.out.println("Incorrect email format: Please enter email in \"name@domain.com.\" format");
 		}
+		ab.display();
 		sc.close();
 		
-		System.out.println("Name: " +ab.getName());
-		System.out.println("Address: "+ab.getAddress());
-		System.out.println("City : "+ab.getCity());
-		System.out.println("State: "+ab.getState());
-		System.out.println("Zip: "+ab.getZip());
-		System.out.println("Phone: "+ab.getPhone());
-		System.out.println("Email: "+ab.getEmail());
 	}
 	
 
